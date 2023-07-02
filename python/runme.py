@@ -18,7 +18,7 @@ print('''  * Double click on the tree name 'DataTuple'. This will show you the t
 print('''  * Double click on one of the branches 'B_M', 'Kst_M', 'JPsi_M'. This will display a histogram of all the values contained''')
 
 
-file = TFile('data/example.root')
+file = TFile('vols/lhcb/mmccann/analysis/kstgg/tuples/MC2018K1eta_12203410_MagUp.root')
 browser = TBrowser()
 
 input("Press Enter to continue...")
